@@ -1,0 +1,5 @@
+intree <- readLines('NameOfOldTreeFile.tre')
+outtree <- gsub('OldTaxonName1', 'NewTaxonName1', intree)
+outtree <- gsub('OldTaxonName2', 'NewTaxonName2', outtree)
+outtree <- gsub('OldTaxonName3', 'NewTaxonName3', outtree)
+write(outtree, 'NameOfNewTreeFile.tre')
